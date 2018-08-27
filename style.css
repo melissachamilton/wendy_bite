@@ -1,8 +1,8 @@
-body {background-color: black;
+body {background-color: darkslategray;
 border: solid;
-margin: 10px;
+margin: 30px; 
 border-color: rgb(119,119,119);
-padding 5px;
+padding 30px;
 }
 
 h1 {text-align: center; 
@@ -17,24 +17,35 @@ nav {text-align: center;
 h2 {
     text-align: left;
     color: white;
+    margin: 100px 100px 0px 200px;
 } 
 
 img {float: right;
-    margin: 10px 200px 30px 20px;
     border: solid;
+    margin: 0px 0px 0px 200px;
     border-color: rgb(119,119,119);
     padding: 5px;
     height: 350px;
-    width: 300px
+    width: 200px;
 }
-p {text-align: left;
+p1 {float: left;
+    font-size: 18px;
     font-weight: lighter;
     line-height: 30px;
-    margin: 0px 0px 0px 200px;
+    margin: -300px 0px 400px 0px;
+    color: white;
+}
+
+p2 {float: left;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 30px;
+    margin: -375px 0px 400px 0px;
     color: white;
 }
 
 footer {text-align: center;
+    margin: 100px 100px 0xp 200px;
 }
 a {color: aquamarine;
 }
